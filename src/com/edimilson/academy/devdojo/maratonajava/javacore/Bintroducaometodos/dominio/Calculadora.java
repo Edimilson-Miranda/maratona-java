@@ -38,4 +38,21 @@ public class Calculadora {
         System.out.println("Numero1: " + numero1);
         System.out.println("Numero2: " + numero2);
     }
+
+
+    public void somarArrays(int[] numeros) {
+        int soma = 0;
+        for (int num: numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    public void somarVarArgs(int... numeros) {
+        int soma = 0;
+        for (int num: numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }

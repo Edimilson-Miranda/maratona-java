@@ -11,7 +11,8 @@ public class Aula03TiposPrimitivosExercicio {
         String endereco = "Rua Fernando";
         double salario = 2500.0;
         String dataDoRecebimentoDoSalario = "20/02/2026";
-        String relatorio = "Eu " + nome + " morando no endereço " + endereco + ", confirmo que recebi o salário de R$ " + salario
+        String relatorio = "Eu " + nome + " morando no endereço " + endereco +
+                ", confirmo que recebi o salário de R$ " + salario
                 + ", na data " + dataDoRecebimentoDoSalario;
 
         System.out.println(relatorio);

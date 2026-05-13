@@ -21,7 +21,7 @@ public class Funcionario {
         if (salarios == null)  {
             return;
         }
-        for (double salario : salarios) {
+        for (double salario : this.salarios) {
             media += salario;
         }
         media /= salarios.length;
@@ -55,6 +55,7 @@ public class Funcionario {
     public double getMedia() {
         return media;
     }
+
 }
 
 

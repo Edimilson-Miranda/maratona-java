@@ -5,8 +5,7 @@ import com.edimilson.academy.devdojo.maratonajava.javacore.Dconstrutor.dominio.A
 
 public class AnimeTest01 {
     public static void main(String[] args) {
-        Anime anime = new Anime("xxxHOLIC", "TV", 24, "Sobrenatural");
-        Anime anime2 = new Anime();
+        Anime anime = new Anime("xxxHOLIC", "TV", 24, "Sobrenatural", "Production IG");
 
     //    anime.init("Bleach", "TV", 24);
 
@@ -17,6 +16,5 @@ public class AnimeTest01 {
     //    anime.setEpisodio(24);
 
         anime.imprime();
-        anime2.imprime();
     }
 }

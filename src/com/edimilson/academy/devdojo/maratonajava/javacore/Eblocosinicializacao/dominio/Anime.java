@@ -4,6 +4,10 @@ public class Anime {
     private String nome;
     private int[] episodios;
 
+    // 1 - Alocado espaço em memoria por objeto
+    // 2 - Cada atributos de classes é criado e inicializado os valores default e o quer for passado
+    // 3 - Bloco de inicialização é execitado
+    // 4 - Construtor é executado;
 
     {
         System.out.println("Dentro do bloco de inicialização");

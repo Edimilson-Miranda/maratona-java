@@ -8,21 +8,21 @@ public class Anime {
     private String estudio;
 
     public Anime(String nome, String tipo, int episodio, String genero) {
-        this();
-        this.nome = nome;
-        this.tipo = tipo;
+        this();                     // após instancia, vai chama o this() que passa o construtor vazio da linha 23.
+        this.nome = nome;          // após terminar o construtor da linha 23, volta para executar
+        this.tipo = tipo;         // as variaveis nome, tipo, episodio e genero
         this.episodio = episodio;
-        this.genero = genero;
-    }
+        this.genero = genero;     // após terminar de executa o bloco de todas as 4 variaveis, pula para
+    }                             // construtor da linha 18, para executa a variavel estudio.
 
     public Anime(String nome, String tipo, int episodio, String genero, String estudio) {
-        this(nome, tipo, episodio, genero);
+        this(nome, tipo, episodio, genero); // vai instancia e chama o construtor da linha 10.
         this.estudio = estudio;
     }
 
     public Anime() {
 
-    }
+    }  // após terminar de executa o construtor vazio, voulta para construtor da linha 10
 
 //    public void init(String nome, String tipo, int episodio) {
 //        this.nome = nome;
